@@ -2,7 +2,7 @@ var discord = require('discord.js');
 var db = require('quick.db');
 
 exports.run = async function(client, message, args, prefix) {
-  
+  try {
   if (!message.guild) return;
   if (message.member.hasPermission(`KICK_MEMBERS`) || message.member.hasPermission(`BAN_MEMBERS`) || message.member.hasPermission(`MANAGE_GUILD`) ) {
     
@@ -14,4 +14,5 @@ exports.run = async function(client, message, args, prefix) {
   await message.channel.send(`User ${user.tag} has been unmuted. :white_check_mark:`)
 
   } else {return;}
+    } catch (e) {}
 }
