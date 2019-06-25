@@ -4,7 +4,7 @@ Discord Watcher Bot - using discord.js, quick.db and express(for hosting on glit
 ![alt text](https://cdn.discordapp.com/attachments/591447325440868361/593165842733072404/unknown.png)
 
 
-- commands folder - folder containing all commands. Commands are all server only, except for help command
+**All commands are server only, except for help command
 
 # commands: 
 - !addswear - add a swear that the bot should moderate
