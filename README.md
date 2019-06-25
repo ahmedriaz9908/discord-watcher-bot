@@ -10,9 +10,9 @@ Discord Watcher Bot - using discord.js, quick.db and express(for hosting on glit
 - !addswear - add a swear that the bot should moderate
 - !deleteswears - delete all swears saved for a server
 - !listswears - dm you a list of all swears for a server; append a `-m` to ur command if you can't see embeds
-- !swearaction [number] - choose what the bot should do what somebody swears
+- !swearaction [number] - choose what the bot should do what somebody swears (You can enable 1 and 4 at the same time)
 0. none
-1. warning. You can also add a warning message at the end if you want (You can enable 1 and 4 at the same time)
+1. warning. You can also add a warning message at the end if you want 
 2. kick
 3. ban
 4. delete message 
