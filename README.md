@@ -12,11 +12,10 @@ Discord Watcher Bot - using discord.js, quick.db and express(for hosting on glit
 - !listswears - dm you a list of all swears for a server; append a `-m` to ur command if you can't see embeds
 - !swearaction [number] - choose what the bot should do what somebody swears
 0. none
-1. warning. You can also add a warning message at the end if you want
+1. warning. You can also add a warning message at the end if you want (You can enable 1 and 4 at the same time)
 2. kick
 3. ban
 4. delete message 
-- (You can enable 1 and 4 at the same time)
 
 - !ban [@user or user id] - @user is pinging someone, user id can be obtained by having developer mode on and pressing on a user and pressing copy ID
 - !softban [@user or user id] - ban someone, delete their messages and then unban them 
