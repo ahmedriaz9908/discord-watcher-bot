@@ -1,7 +1,8 @@
 var discord = require('discord.js');
 
 exports.run = async function(client, message, args, prefix) {
-  
+  try {
+    
   if (!message.guild) return;
   if (!message.member.hasPermission(`BAN_MEMBERS`)) return message.channel.send(`Sorry, you don't have ban members permission!`)
   var user = message.mentions.members.first() ? message.mentions.users.first() : await client.fetchUser(args[0])
@@ -17,5 +18,6 @@ exports.run = async function(client, message, args, prefix) {
     message.channel.send(`Unable to ban that user! :RedTick:`); return; 
     }
   message.channel.send(`User ${user.tag} has been banned :white_check_mark:`)
-  
+    
+  } catch (e) {}
 }
