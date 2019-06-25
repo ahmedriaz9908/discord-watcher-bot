@@ -3,7 +3,7 @@ var discord = require('discord.js');
 var db = require('quick.db');
 
 exports.run = async function(client, message, args, prefix) {
-  
+  try {
   if (!message.guild) return;
   if (!message.member.hasPermission(`MANAGE_GUILD`)) return message.channel.send(`Sorry, you need manage guild permission to use this!`)
   var swears = await db.get(`swears_${message.guild.id}`);
@@ -41,5 +41,5 @@ exports.run = async function(client, message, args, prefix) {
   message.channel.send(`Sent you the list of swears for this guild, check your dms! (if you can't see embeds, append \`-m\` to the end of your command`)
   }
   
-  
+  } catch (e) {}
 }
