@@ -1,0 +1,24 @@
+{
+  "name": "Discord-Watcher-Bot",
+  "version": "0.0.1",
+  "description": "none",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "discord.js": "11.4.2",  
+    "quick.db": "7.0.0-b17"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "node"
+  ]
+}
