@@ -3,7 +3,8 @@ var db = require(`quick.db`);
 
 exports.run = async function(client, message, args, prefix) {
   
-  
+  try {
+    
       if (db.get(`swearaction_${message.guild.id}`) == 1) { //WARNING
           
         var msg = await db.get(`warningmsg_${message.guild.id}`) 
@@ -28,4 +29,5 @@ exports.run = async function(client, message, args, prefix) {
         message.delete().catch(e => {})
         }
         
+    } catch (e) {}
 }
