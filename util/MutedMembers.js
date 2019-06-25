@@ -2,7 +2,8 @@ var discord = require('discord.js');
 var db = require('quick.db');
 
 exports.run = async function(client) {
-
+try {
+  
   var mutedmembers = await db.get(`muted`);
   
   if (!mutedmembers) return;
@@ -27,4 +28,5 @@ exports.run = async function(client) {
       
     })
   
+  } catch (e) {}
 }
