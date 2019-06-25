@@ -19,6 +19,7 @@ Discord Watcher Bot - using discord.js, quick.db and express(for hosting on glit
 - (You can enable 1 and 4 at the same time)
 
 - !ban [@user or user id] - @user is pinging someone, user id can be obtained by having developer mode on and pressing on a user and pressing copy ID
+- !softban [@user or user id] - ban someone, delete their messages and then unban them 
 - !kick [@user or user id]
 
 - !mute @someone [optional: time] - mute someone. Time has to be parsed as a certain amount of days [d], hours [h], minutes [m]
