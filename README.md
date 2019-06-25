@@ -1,5 +1,4 @@
-Discord Watcher Bot
-using discord.js, quick.db and express(for hosting on glitch)
+Discord Watcher Bot - using discord.js, quick.db and express(for hosting on glitch)
 
 #help - https://cdn.discordapp.com/attachments/591447325440868361/593165842733072404/unknown.png
 
