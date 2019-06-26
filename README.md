@@ -1,7 +1,7 @@
 Discord Watcher Bot - using discord.js, quick.db and express(for hosting on glitch)
 
 # help 
-![alt text](https://cdn.discordapp.com/attachments/591447325440868361/593180204881543168/unknown.png)
+![alt text](https://cdn.discordapp.com/attachments/591447325440868361/593280720861003803/unknown.png)
 
 
 **All commands are server only, except for help command
@@ -27,3 +27,6 @@ example: !mute @spammer 3d 6h 2m - will mute someone for 3 days, 6 hours, 2 minu
 
 - !purge [amount] [optional: @user or user id] -  delete a certain amount of messages from a channel, or all the messages sent from that user in that amount. Example: `!purge 20 @someone`
 
+# MISCELLANEOUS
+
+- !info [optional: @user or user id] - get some info on a member.
