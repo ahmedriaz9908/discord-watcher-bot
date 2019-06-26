@@ -7,7 +7,7 @@ exports.run = async function(client, message, args, prefix) {
   if (!message.guild) return;
   if (message.member.hasPermission(`MANAGE_CHANNELS`) || message.member.hasPermission(`MANAGE_MESSAGES`)) {
 
-  if (args[1]) var user = message.mentions.members.first() ? message.mentions.users.first() : await client.fetchUser(args[0]);
+  if (args[1]) var user = message.mentions.members.first() ? message.mentions.users.first() : await client.fetchUser(args[1]);
 
   var amount = args[0];
   
